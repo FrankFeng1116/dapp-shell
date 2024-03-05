@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Schrodinger NFT",
+    "slug": "Schrodinger NFT",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ai.nft.schrodinger"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-0.85x.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "nft.ai.schrodinger"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}

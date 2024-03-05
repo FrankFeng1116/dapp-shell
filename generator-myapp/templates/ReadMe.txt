@@ -1,0 +1,1 @@
+this is a dapp app,  dappUrl is: <%= dappUrl %>
