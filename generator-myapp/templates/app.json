@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Schrodinger NFT",
-    "slug": "Schrodinger NFT",
+    "name": "<%= appName %>",
+    "slug": "<%= appName %>",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,14 +14,14 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "ai.nft.schrodinger"
+      "bundleIdentifier": "<%= bundleId %>"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/logo-0.85x.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "nft.ai.schrodinger"
+      "package": "<%= applicationId %>"
     },
     "web": {
       "favicon": "./assets/icon.png"
@@ -29,5 +29,10 @@
     "plugins": [
       "expo-font"
     ]
-  }
+  },
+  "dappUrl": "<%= dappUrl %>",
+  "googleClientId": {
+    "ios": "<%= googleIosClientId %>",
+    "web": "<%= googleWebClientId %>"
+  } 
 }

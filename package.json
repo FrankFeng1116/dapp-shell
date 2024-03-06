@@ -1,19 +1,24 @@
 {
   "name": "dapp-shell",
-  "version": "1.0.0",
+  "version": "0.0.9",
   "main": "index.js",
   "repository": "git@github.com:FrankFeng1116/dapp-shell.git",
   "author": "semaphoresentinel <149366454+semaphoresentinel@users.noreply.github.com>",
   "license": "MIT",
   "type": "commonjs",
   "dependencies": {
+    "axios": "^1.6.7",
     "chalk": "^5.3.0",
     "commander": "^12.0.0",
     "inquirer": "^9.2.15",
+    "semver": "^7.6.0",
     "yeoman-environment": "2.8.0",
     "yeoman-generator": "4.0.1"
   },
   "scripts": {
     "dev": "node index"
+  },
+  "bin": {
+    "dapp": "./index.js"
   }
 }
